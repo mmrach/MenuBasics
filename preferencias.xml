@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="nombre">Miguel Onofre</string>
+    <float name="Y" value="16.2" />
+    <float name="X" value="25.5" />
+</map>

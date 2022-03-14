@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Menu Basics</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Preferencias</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="title_activity_acerca_de">Acerca De</string>
+    <string name="autor">Miguel Onofre Martínez Rach</string>
+    <string name="title_activity_preferencias">Preferencias</string>
+
+</resources>
