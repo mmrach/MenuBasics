@@ -1,6 +1,7 @@
 package com.example.menubasics;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -12,6 +13,12 @@ public class AcercaDe extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_acerca_de);
 	}
+
+	private void showPreferencias(){
+		Intent i = new Intent(this,Preferencias.class);
+		startActivity(i);
+	}
+
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
@@ -27,6 +34,7 @@ public class AcercaDe extends Activity {
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
 		if (id == R.id.action_settings) {
+			showPreferencias();
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
